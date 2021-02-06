@@ -1,0 +1,23 @@
+.country{
+    border: 2px dotted greenyellow;
+    border-radius: 40px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    
+}
+.country-name{
+    font-size: 45px;
+    color: hotpink;
+    
+    
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    
+}
+#country-detail img{
+    width: 200px;
+}
